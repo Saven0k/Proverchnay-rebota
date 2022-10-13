@@ -41,3 +41,5 @@ string[] GetNewArray(string[] arra)
     Console.Write("]");
     return ResultArray;
 }
+PrintArray(array);
+GetNewArray(array);
