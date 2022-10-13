@@ -24,3 +24,20 @@ void PrintArray(string[] arra)
     }
     Console.Write("]");
 }
+string[] GetNewArray(string[] arra)
+{
+
+    Console.Write(" - > [");
+    string[] ResultArray = new string[arra.Length];
+    for (int i = 0; i < arra.Length; i++)
+    {
+        if (arra[i].Length < 4)
+        {
+            ResultArray[i] = arra[i];
+            if (ResultArray[i] == ResultArray[ResultArray.Length - 1]) Console.Write($"'{ResultArray[i]}'");
+            else Console.Write($" '{ResultArray[i]}'");
+        }
+    }
+    Console.Write("]");
+    return ResultArray;
+}
