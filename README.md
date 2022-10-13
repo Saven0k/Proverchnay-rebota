@@ -1,5 +1,5 @@
 # Proverchnay-rebota
-![image]([https://user-images.githubusercontent.com/112065370/195632225-a46e0571-4710-4170-87d9-beea75ae1602.png](https://sun9-35.userapi.com/impg/XDRx6v3rrn6BnrQ5Jd-IvDfBDHuSK4V8pPdmEA/Mt-bt5EXRfE.jpg?size=894x642&quality=96&sign=8d2351334e6f3aced47a4384412cd1d8&type=album), "Надеюсь загрузил правильно")
+![image](https://sun9-35.userapi.com/impg/XDRx6v3rrn6BnrQ5Jd-IvDfBDHuSK4V8pPdmEA/Mt-bt5EXRfE.jpg?size=894x642&quality=96&sign=8d2351334e6f3aced47a4384412cd1d8&type=album, "Надеюсь загрузил правильно")
 
 **Задача: Написать программу, которая из имеющегося массива строк формирует массив из строк, длина которых меньше либо равна 3 символа.
 Первоначальный массив можно ввести с клавиатуры, 
