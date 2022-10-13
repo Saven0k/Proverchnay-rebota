@@ -13,3 +13,14 @@ Console.Clear();
 
 Console.Write("Введите слова или символы или цифры через пробел: ");
 string[] array = Console.ReadLine().Split(' ').ToArray();
+
+void PrintArray(string[] arra)
+{
+    Console.Write("[");
+    for (int i = 0; i < arra.Length; i++)
+    {
+        if (arra[i] == arra[arra.Length - 1]) Console.Write($"'{arra[i]}'");
+        else Console.Write($" '{arra[i]}',");
+    }
+    Console.Write("]");
+}
