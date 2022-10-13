@@ -8,3 +8,8 @@
 
 
 // Контрольная работа
+
+Console.Clear();
+
+Console.Write("Введите слова или символы или цифры через пробел: ");
+string[] array = Console.ReadLine().Split(' ').ToArray();
